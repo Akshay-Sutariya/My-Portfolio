@@ -140,6 +140,7 @@ a:hover {
 }
 
 .about .row .about-detail {
+  overflow-y: hidden;
   padding-left: 5rem;
   margin-top: 5rem;
   width: 40%;
@@ -202,7 +203,6 @@ a:hover {
   border-radius: 5rem;
 }
 .portfolio .portfolio-image {
-  box-sizing: border-box;
   display: flex;
   margin-top: 7rem;
   flex-wrap: wrap;
@@ -211,14 +211,15 @@ a:hover {
 }
 .portfolio .portfolio-image .portfolio-img {
   height: 40%;
+  margin-top: 3rem;
   width: 25%;
   padding-left: 8rem;
 }
 .portfolio .portfolio-image .portfolio-img img {
   border-radius: 3rem;
 }
-.portfolio .portfolio-image .portfolio-img img:hover {
-  transform: scale(1.2);
+.portfolio .portfolio-image .portfolio-img:hover {
+  transform: scale(1.1);
 }
 .contact .contect-info {
   display: flex;
